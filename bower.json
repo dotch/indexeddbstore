@@ -1,0 +1,24 @@
+{
+  "name": "indexeddbstore",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dotch/indexeddbstore",
+  "authors": [
+    "Christian Weiss <christian.x.weiss@gmail.com>"
+  ],
+  "description": "A simple promise based indexeddb wrapper.",
+  "main": "dist/indexeddbstore.min.js",
+  "keywords": [
+    "indexeddb",
+    "db",
+    "storage",
+    "promises"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "indexeddbstore",
+  "version": "0.0.1",
+  "description": "A simple promise based indexeddb wrapper.",
+  "main": "dist/indexeddbstore.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dotch/indexeddbstore"
+  },
+  "keywords": [
+    "indexeddb",
+    "storage"
+  ],
+  "author": "Christian Weiss",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dotch/indexeddbstore/issues"
+  },
+  "homepage": "https://github.com/dotch/indexeddbstore",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "gulp": "^3.8.5",
+    "gulp-concat": "^2.2.0",
+    "gulp-header": "^1.0.2",
+    "gulp-jshint": "^1.6.4",
+    "gulp-uglify": "^0.3.1",
+    "karma": "^0.12.16",
+    "karma-chai": "^0.1.0",
+    "karma-chai-plugins": "^0.2.1",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-mocha": "^0.1.4",
+    "mocha": "^1.20.1"
+  }
+}

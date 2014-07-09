@@ -1,3 +1,13 @@
+# Creation
+
+`new IndexedDbStore(dbName, keyname, indices);`
+
+Argument | Type    | Description
+---      |---      |---
+`dbName` |*string* | The database name..
+`keyName`|*string* | The name of the unique primary key to use for get, set and remove operations. Defaults to an auto-incrementing `id`.
+`indices`|*array*  | An array of one or multiple indices which can be used to order and  the results of queries which return multiple items.
+
 # Methods
 
 Method            | Returns a promise for  | Description

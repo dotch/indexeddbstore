@@ -86,8 +86,10 @@ describe("the key value store with key", function(){
   this.timeout(timeout);
 
   before(function(done){
+    console.log(IndexedDbStore);
 
     kvk = new IndexedDbStore("store-key", keyAttribute, indexAttribute);
+    console.log(kvk);
 
     sampleItems = generateSampleItems(n);
     singleItem = generateSampleItems(1)[0];
